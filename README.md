@@ -1,12 +1,16 @@
 ### Exercises with Scanner 
-Today's tasks should be coded using a text editor. For each task you will create a new folder and start by adding a class called <code>Main</code> (referred to as "The Main class" or the "client class" in the following) with a <code>main</code> method (except for Task 3). 
-In Task 2 you will write all the code in the <code>main</code> method, while in 1 and 4 you will be asked to make both a <code>Main</code> class with a <code>main</code> method in it and an "entity class" without a <code>main</code> method but with a constructor and maybe some fields/attributes/instance variable. 
+Today's tasks should be coded using a text editor. For each task you will create a new folder and start by adding a class called <code>Main</code> (referred to as "The Main class" or the "client class" in the following).
+This class will usually contain the <code>main</code> method (not so in Task 3). 
+
+In Task 2 you will write all the code in the <code>main</code> method, while in 1 and 4 you will be asked to make 
+both a <code>Main</code> class with a <code>main</code> method in it, and an "entity class" - a class representing a thing in the world
+with a constructor and some fields/attributes/instance variable. 
 
 NOTE: Task 5 is a continuation of Task 4. There are many small steps and you might loose track. Follow the steps as far as you can. Use the hints and codesnippets provided. The goal is to prepare yourself for review, where we will code it together. 
 
 ---
 ## Task 1:
-In this exercise you will write an entity class called <code>Team</code> and a client class called <code>Main</code>. You will create private attributes int the entity class and give it a parameterized constructor, a <code>toString()</code> and a setter method.
+In this exercise you will write an entity class called <code>Team</code> and a client class called <code>Main</code>. You will create private attributes in the entity class and give it a parameterized constructor, a <code>toString()</code> and a setter method.
 
 1.a Create a class <code>Main</code> with a <code>main</code> method.
 
