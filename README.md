@@ -132,17 +132,18 @@ System.out.print(actions.get(2)) // expected output: "Pause game"
 We will continue with the code you produced in Task 4. Now we want to make it possible for a user to select an action in the menu. When he types a number associated with an action, the program will print a message that corresponds to the chosen action. 
 The point of this exercise is to work with the <code>Scanner</code> to create a dialog with the user.
 
-5.a Create a method in the <code>GameMenu</code> class <code>getAction()</code> that prints the sentence "Type a number to choose an action" and then prints each elements in the <code>actions</code> attribute. 
+5.a Create a method in the <code>GameMenu</code> class <code>promptUser()</code> that prints the sentence "Type a number to choose an action" and then prints each elements in the <code>actions</code> attribute. 
  <details>
   <summary>Hint</summary>
   <p>Reuse the <code>displayMenu</code> method you wrote in step 4.h to accomplish the last bit. 
   </p>
 </details>
 
-5.b Next, in the <code>getAction()</code> method, create a new <code>Scanner</code> object. Declare a variable <code>String choice</code> and assign it the user's input. (Similar to what you did in step 2.c and 2.d).
-5.c Let the <code>getAction()</code> method return the user's choice. (If the method has <code>void</code> as return type, change that to the return type <code>String</code>). Then return the choice variable you declared in step 5.b 
+5.b Next, in the <code>promptUser()</code> method, create a new <code>Scanner</code> object. Declare a variable <code>String choice</code> and assign it the user's input. (Similar to what you did in step 2.c and 2.d).
 
-5.d In the <code>main</code> method of the <code>Main</code> class, call the <code>getAction()</code> method on the <code>GameMenu</code> instance you instantiated in 4.g, saving the return value (the user response) in a variable. 
+5.c The method <code>promptUser()</code> should return the user's input. (If the method has <code>void</code> as return type, change that to the return type <code>String</code>). Then return the choice variable you declared in step 5.b 
+
+5.d In the <code>main</code> method of the <code>Main</code> class, call the <code>promptUser()</code> method on the <code>GameMenu</code> instance you instantiated in 4.g, saving the return value in a variable. 
 <details>
   <summary>Peep solution</summary>
   <p>
