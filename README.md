@@ -128,7 +128,7 @@ System.out.print(actions.get(2)) // expected output: "Pause game"
 4.i From the <code>main</code> method in <code>Main</code> test the <code>displayMenu()</code> method by calling it on the <code>GameMenu</code> instance created in step 4.g. 
 
 
-## Task 5:
+## Task 5: Add user interaction
 We will continue with the code you produced in Task 4. Now we want to make it possible for a user to select an action in the menu. When he types a number associated with an action, the program will print a message that corresponds to the chosen action. 
 The point of this exercise is to work with the <code>Scanner</code> to create a dialog with the user.
 
