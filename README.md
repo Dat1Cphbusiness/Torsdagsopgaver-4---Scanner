@@ -148,7 +148,7 @@ The point of this exercise is to work with the <code>Scanner</code> to create a 
   <summary>Peep solution</summary>
   <p>
     <code>
-    String userChoice = getAction();
+    String userChoice = promptUser();
 </code>
 </p>
 </details>
